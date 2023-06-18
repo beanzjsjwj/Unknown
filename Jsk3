@@ -78,7 +78,7 @@ local Button = Tab:CreateButton({
 
    local tb = game:GetService("HttpService"):JSONDecode(game:HttpGet(("https://games.roblox.com/v1/games/%s/servers/Public?sortOrder=Asc&limit=100"):format(tostring(game.PlaceId))));
 
-		(queue_on_teleport or syn and syn.queue_on_teleport)("loadstring(game:HttpGet\"https://raw.githubusercontent.com/beanzjsjwj/Unknown/main/untitledjsksksmdms%2C.txt\")()")		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, tb.data[math.random(1, #tb.data)].id, game.Players.LocalPlayer)
+		(queue_on_teleport or syn and syn.queue_on_teleport)("loadstring(game:HttpGet\"https://github.com/beanzjsjwj/Unknown/blob/main/Jsk3\")()")		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, tb.data[math.random(1, #tb.data)].id, game.Players.LocalPlayer)
 
    end,
 
@@ -102,7 +102,7 @@ local Input = Tab:CreateInput({
 
 				if player.name == Text or player.UserId == Text then
 
-					(queue_on_teleport or syn and syn.queue_on_teleport)("loadstring(game:HttpGet\"https://raw.githubusercontent.com/beanzjsjwj/Unknown/main/untitledjsksksmdms%2C.txt\")()")
+					(queue_on_teleport or syn and syn.queue_on_teleport)("loadstring(game:HttpGet\"https://github.com/beanzjsjwj/Unknown/blob/main/Jsk3\")()")
 
 					game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, server.id, game.Players.LocalPlayer)
 
@@ -126,7 +126,7 @@ local Input = Tab:CreateInput({
 
    Callback = function(Text)
 
-   (queue_on_teleport or syn and syn.queue_on_teleport)("loadstring(game:HttpGet\"https://raw.githubusercontent.com/beanzjsjwj/Unknown/main/untitledjsksksmdms%2C.txt\")()")
+   (queue_on_teleport or syn and syn.queue_on_teleport)("loadstring(game:HttpGet\"https://github.com/beanzjsjwj/Unknown/blob/main/Jsk3\")()")
 
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, Text, game.Players.LocalPlayer)
 
